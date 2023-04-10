@@ -1,0 +1,29 @@
+.stick {
+    position: sticky;
+    text-align: center;
+    top: 0;
+    background: rgb(33,37,41);
+    color: white;
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #cccccc;
+    z-index: 9999;
+}
+
+.close-button {
+    margin-left: 10px;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Создаем путь к серверу
 const instance = axios.create({
-    baseURL: "https://reqres.in/api",
+    baseURL: process.env.REACT_APP_API_URL || "https://reqres.in/api",
 });
 
 
